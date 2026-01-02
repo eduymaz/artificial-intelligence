@@ -1,0 +1,4 @@
+Model,Search Type,CV F1,Test F1,Test ROC-AUC,Tuning Time (s),Iterations
+Random Forest,RandomizedSearchCV,0.8587,0.1141,0.6589,683.32,250
+XGBoost,GridSearchCV,0.8576,0.0960,0.6672,3566.29,20736
+LightGBM,RandomizedSearchCV,0.8584,0.1362,0.6809,403.75,250

@@ -1,0 +1,11 @@
+Classification Report - Xgboost
+============================================================
+
+                 precision    recall  f1-score   support
+
+ No Readmission       0.89      0.99      0.94     18083
+Readmission <30       0.41      0.04      0.08      2271
+
+       accuracy                           0.89     20354
+      macro avg       0.65      0.52      0.51     20354
+   weighted avg       0.84      0.89      0.84     20354

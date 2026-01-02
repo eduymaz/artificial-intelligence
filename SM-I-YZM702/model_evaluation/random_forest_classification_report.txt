@@ -1,0 +1,11 @@
+Classification Report - Random Forest
+============================================================
+
+                 precision    recall  f1-score   support
+
+ No Readmission       0.91      0.86      0.88     18083
+Readmission <30       0.21      0.28      0.24      2271
+
+       accuracy                           0.80     20354
+      macro avg       0.56      0.57      0.56     20354
+   weighted avg       0.83      0.80      0.81     20354

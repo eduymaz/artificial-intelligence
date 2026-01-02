@@ -1,0 +1,173 @@
+{
+    "dataset_info": {
+        "total_samples": 101766,
+        "total_features": 50,
+        "memory_usage_mb": 192.87075233459473,
+        "duplicate_rows": 0,
+        "data_types": {
+            "object": 37,
+            "int64": 13
+        }
+    },
+    "target_distribution": {
+        "NO": 54864,
+        ">30": 35545,
+        "<30": 11357
+    },
+    "missing_values_summary": {
+        "features_with_missing": 7,
+        "top_missing_features": [
+            {
+                "feature": "weight",
+                "missing_count": 98569,
+                "missing_percentage": 96.85847925633315
+            },
+            {
+                "feature": "medical_specialty",
+                "missing_count": 49949,
+                "missing_percentage": 49.08220820313268
+            },
+            {
+                "feature": "payer_code",
+                "missing_count": 40256,
+                "missing_percentage": 39.5574160328597
+            },
+            {
+                "feature": "race",
+                "missing_count": 2273,
+                "missing_percentage": 2.2335554114340743
+            },
+            {
+                "feature": "diag_3",
+                "missing_count": 1423,
+                "missing_percentage": 1.398305917497003
+            }
+        ]
+    },
+    "numeric_features": {
+        "count": 13,
+        "features": [
+            "encounter_id",
+            "patient_nbr",
+            "admission_type_id",
+            "discharge_disposition_id",
+            "admission_source_id",
+            "time_in_hospital",
+            "num_lab_procedures",
+            "num_procedures",
+            "num_medications",
+            "number_outpatient",
+            "number_emergency",
+            "number_inpatient",
+            "number_diagnoses"
+        ]
+    },
+    "categorical_features": {
+        "count": 37,
+        "top_features": [
+            {
+                "feature": "diag_3",
+                "unique_values": 790,
+                "most_common": "250",
+                "most_common_percentage": 11.354479885226892
+            },
+            {
+                "feature": "diag_2",
+                "unique_values": 749,
+                "most_common": "276",
+                "most_common_percentage": 6.634828921250713
+            },
+            {
+                "feature": "diag_1",
+                "unique_values": 717,
+                "most_common": "428",
+                "most_common_percentage": 6.742920032230804
+            },
+            {
+                "feature": "medical_specialty",
+                "unique_values": 73,
+                "most_common": "?",
+                "most_common_percentage": 49.08220820313268
+            },
+            {
+                "feature": "payer_code",
+                "unique_values": 18,
+                "most_common": "?",
+                "most_common_percentage": 39.5574160328597
+            },
+            {
+                "feature": "age",
+                "unique_values": 10,
+                "most_common": "[70-80)",
+                "most_common_percentage": 25.615628009354797
+            },
+            {
+                "feature": "weight",
+                "unique_values": 10,
+                "most_common": "?",
+                "most_common_percentage": 96.85847925633315
+            },
+            {
+                "feature": "race",
+                "unique_values": 6,
+                "most_common": "Caucasian",
+                "most_common_percentage": 74.77841322249081
+            },
+            {
+                "feature": "glipizide",
+                "unique_values": 4,
+                "most_common": "No",
+                "most_common_percentage": 87.53414696460507
+            },
+            {
+                "feature": "glyburide-metformin",
+                "unique_values": 4,
+                "most_common": "No",
+                "most_common_percentage": 99.3062515968005
+            }
+        ]
+    },
+    "high_correlations": [],
+    "medication_usage": {
+        "insulin": {
+            "count": 54383,
+            "percentage": 53.43926262209382
+        },
+        "metformin": {
+            "count": 19988,
+            "percentage": 19.6411375115461
+        },
+        "glipizide": {
+            "count": 12686,
+            "percentage": 12.465853035394927
+        },
+        "glyburide": {
+            "count": 10650,
+            "percentage": 10.465184835799777
+        },
+        "pioglitazone": {
+            "count": 7328,
+            "percentage": 7.20083328420101
+        },
+        "rosiglitazone": {
+            "count": 6365,
+            "percentage": 6.254544739893481
+        },
+        "glimepiride": {
+            "count": 5191,
+            "percentage": 5.100917791796868
+        },
+        "repaglinide": {
+            "count": 1539,
+            "percentage": 1.5122929072578268
+        },
+        "nateglinide": {
+            "count": 703,
+            "percentage": 0.6908004638091307
+        },
+        "acarbose": {
+            "count": 308,
+            "percentage": 0.30265511074425644
+        }
+    }
+}
